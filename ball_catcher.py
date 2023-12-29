@@ -281,7 +281,7 @@ def Play_Sound(S):  # Make such a dictionary to play during the game.
 def main_loop():
     global WIDTH, HEIGHT, FPS, screen, posn
     pygame.init()
-    pygame.mixer.music.load('/home/rajishjw/Documents/PyGame/foo2.mp3')
+    pygame.mixer.music.load('"C:\Users\rajis\Music\Komiku_-_35_-_The_True_Last_Boss(chosic.com).mp3"')
     pygame.mixer.music.set_volume(0.2)
     pygame.mixer.music.play(-1)
 
